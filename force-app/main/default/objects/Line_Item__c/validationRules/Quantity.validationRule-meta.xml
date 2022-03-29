@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Quantity</fullName>
+    <active>true</active>
+    <description>Line_Item__c.Quantity__c can not be less than 1</description>
+    <errorConditionFormula>Quantity__c &lt;1</errorConditionFormula>
+    <errorMessage>Line_Item__c.Quantity__c can not be less than 1</errorMessage>
+</ValidationRule>
